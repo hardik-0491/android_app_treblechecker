@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_treble"
+        android:icon="@drawable/ic_layers_24dp"
+        android:checked="true"
+        android:title="@string/title_treble" />
+
+    <item
+        android:id="@+id/navigation_ab_update"
+        android:icon="@drawable/ic_update_24dp"
+        android:title="@string/title_ab_update" />
+
+</menu>

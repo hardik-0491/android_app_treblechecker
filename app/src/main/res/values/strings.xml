@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Treble Checker</string>
+    <string name="title_treble">Treble</string>
+    <string name="title_ab_update">Seamless Updates</string>
+
+    <string name="project_treble_info">
+        The Android 8.0 release includes Project Treble, a major re-architect of the Android OS framework designed to make it easier, faster, and less costly for manufacturers to update devices to a new version of Android. Treble is for all new devices launching with Android 8.0 and beyond.
+        \n\n
+        Project Treble separates the vendor implementation (device-specific, lower-level software written by silicon manufacturers) from the Android OS framework via a new vendor interface.
+        \n\n
+        You can get more info <a href="https://source.android.com/devices/architecture/treble">here</a>
+    </string>
+
+    <string name="seamless_update_info">
+        Seamless system updates, also known as A/B updates, ensure a workable booting system remains on the disk during an over-the-air (OTA) update. This approach reduces the likelihood of an inactive device after an update, which means fewer device replacements and device reflashes at repair and warranty centers. Other commercial-grade operating systems such as ChromeOS also use seamless updates successfully.
+        \n\n
+        You can get more info <a href="https://source.android.com/devices/tech/ota/ab/">here</a>
+    </string>
+
+    <string name="support_treble_yes">
+        Your device supports Project Treble
+    </string>
+    <string name="support_treble_no">
+        Your device does not supports Project Treble
+    </string>
+    <string name="support_seamless_yes">
+        Your device supports Seamless Updates
+    </string>
+    <string name="support_seamless_no">
+        Your device does not supports Seamless Updates
+    </string>
+
+</resources>
