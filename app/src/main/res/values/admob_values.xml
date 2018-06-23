@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="admob_app_id" translatable="false"></string>
-    <string name="admob_fragment_treble_banner_id" translatable="false"></string>
-    <string name="admob_fragment_seamless_banner_id" translatable="false"></string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-4377347893636901~2768374628</string>
+    <string name="admob_fragment_treble_banner_id" translatable="false">ca-app-pub-4377347893636901/5829652231</string>
+    <string name="admob_fragment_seamless_banner_id" translatable="false">ca-app-pub-4377347893636901/6605060744</string>
 </resources>
