@@ -1,9 +1,7 @@
 package com.hardiksenghani.treblechecker.ui.fragment;
 
-import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.ImageViewCompat;
@@ -14,9 +12,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
 import com.hardiksenghani.treblechecker.R;
 import com.hardiksenghani.treblechecker.utils.Utils;
 
@@ -75,12 +70,6 @@ public class TrebleFragment extends Fragment {
             ImageViewCompat.setImageTintList(resultImageView, ColorStateList.valueOf(Color.RED));
             view.setBackgroundColor(Color.parseColor("#FFEEEE"));
         }
-
-        MobileAds.initialize(getContext());
-
-        AdView adView = view.findViewById(R.id.fragment_treble_banner_adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
 
         return view;
     }

@@ -20,19 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/fragment_treble_banner_adView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                ads:adSize="SMART_BANNER"
-                ads:adUnitId="@string/admob_fragment_treble_banner_id"
-                ads:layout_constraintBottom_toBottomOf="parent"
-                ads:layout_constraintTop_toBottomOf="@+id/fragment_treble_info_textView"
-                ads:layout_constraintVertical_bias="1.0"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
             <ImageView
                 android:id="@+id/fragment_treble_result_imageView"
                 android:layout_width="wrap_content"
